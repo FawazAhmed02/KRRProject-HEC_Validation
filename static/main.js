@@ -83,11 +83,16 @@ form.addEventListener("submit", (e) => {
 
         var categoryDiv = document.createElement("div");
         categoryDiv.classList.add("reason-category");
-        categoryDiv.textContent = reason.split(" ")[1].replace(/_/g, " ");
 
         var descriptionDiv = document.createElement("div");
         descriptionDiv.classList.add("reason-description");
         descriptionDiv.textContent = reason;
+
+        if (reason.toLowerCase().includes("incomplete")) {
+          reasonDiv.classList.add("incomplete-reason");
+        }
+
+        categoryDiv.textContent = reason.split(" ")[1].replace(/_/g, " ");
 
         reasonDiv.appendChild(categoryDiv);
         reasonDiv.appendChild(descriptionDiv);

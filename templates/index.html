@@ -4,38 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 </head>
-<body>
-    <form id="uploadForm" enctype="multipart/form-data">
-        <div>
-            <label for="file">Choose file for HEC</label>
-            <input type="file" name="hecfile" id="hecfile">
-        </div>
-        <div>
-            <label for="file">Choose file for Transcript</label>
-            <input type="file" name="trnsfile" id="trnsfile">
-        </div>
-        <div>
-            <label for="file">Choose file for Criteria</label>
-            <input type="file" name="criteriafile" id="criteriafile">
-        </div>
-        <input type="submit" value="Upload" id="upload">
+<body class="bg-light">
 
-    </form>
+    <div class="container mt-5">
+        <form id="uploadForm" enctype="multipart/form-data" class="bg-white p-4 rounded shadow-sm">
+            <div class="form-group">
+                <label for="hecfile">Choose file for HEC</label>
+                <input type="file" name="hecfile" id="hecfile" class="form-control-file">
+            </div>
+            <div class="form-group">
+                <label for="trnsfile">Choose file for Transcript</label>
+                <input type="file" name="trnsfile" id="trnsfile" class="form-control-file">
+            </div>
+            <div class="form-group">
+                <label for="criteriafile">Choose file for Criteria</label>
+                <input type="file" name="criteriafile" id="criteriafile" class="form-control-file">
+            </div>
+            <input type="submit" value="Upload" id="upload" class="btn btn-success">
+        </form>
+
+        <div id="creditCount" class="mt-4"></div>
+
+        <div id="courseContainer" class="mt-4">
+            <h1 class="mb-4">All Possible Ways</h1>
+        </div>
+
+        <div id="reasonContainer" class="mt-4">
+            <h1 class="mb-4">Reasons</h1>
+        </div>
+    </div>
     
-    <div id="creditCount">
-        
-    </div>
-
-    <div id="courseContainer">
-        <h1>All Possible Ways</h1>
-    </div>
-    <div id="reasonContainer">
-
-    </div>
-    
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="{{url_for('static', filename='main.js')}}"></script>
 </body>
 </html>
