@@ -101,5 +101,10 @@ form.addEventListener("submit", (e) => {
       });
 
       console.log(data);
+      //   clear file inputs
+      //   trnsfile.value = "";
+      //   hecfile.value = "";
+      //   criteriafile.value = "";
+      form.reset();
     });
 });
