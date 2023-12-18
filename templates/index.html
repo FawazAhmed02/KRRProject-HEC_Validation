@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <div>
+            <label for="file">Choose file for HEC</label>
+            <input type="file" name="hecfile" id="hecfile">
+        </div>
+        <div>
+            <label for="file">Choose file for Transcript</label>
+            <input type="file" name="trnsfile" id="trnsfile">
+        </div>
+        <div>
+            <label for="file">Choose file for Criteria</label>
+            <input type="file" name="criteriafile" id="criteriafile">
+        </div>
+        <input type="submit" value="Upload" id="upload">
+
+    </form>
+    
+    <div id="creditCount">
+        
+    </div>
+
+    <div id="courseContainer">
+        <h1>All Possible Ways</h1>
+    </div>
+    <div id="reasonContainer">
+
+    </div>
+    
+
+    <script src="{{url_for('static', filename='main.js')}}"></script>
+</body>
+</html>

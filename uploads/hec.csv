@@ -1,0 +1,54 @@
+Course Name,Category,creditHour
+Programming Fundamentals,Computing_Core_Courses,3
+Programming Fundamentals Lab,Computing_Core_Courses,1
+Object Oriented Programming,Computing_Core_Courses,3
+Object Oriented Programming Lab,Computing_Core_Courses,1
+Data Structures & Algorithms,Computing_Core_Courses,3
+Discrete Structures,Computing_Core_Courses,3
+Data Structures & Algorithms Lab,Computing_Core_Courses,1
+Operating Systems,Computing_Core_Courses,3
+Operating Systems Lab,Computing_Core_Courses,1
+Database Systems,Computing_Core_Courses,3
+Database Systems Lab,Computing_Core_Courses,1
+Software Engineering,Computing_Core_Courses,3
+Computer Networks,Computing_Core_Courses,3
+Computer Networks Lab,Computing_Core_Courses,1
+Information Security,Computing_Core_Courses,3
+Final Year Project I,Computing_Core_Courses,3
+Final Year Project,Computing_Core_Courses,3
+English Composition & Comprehension,General_Education_Courses,3
+English Composition & Comprehension Lab,General_Education_Courses,1
+Technical & Business Writing,General_Education_Courses,3
+Communication & Presentation Skills,General_Education_Courses,3
+Professional Practices,General_Education_Courses,3
+Intro to Info. & Comm. Technologies,General_Education_Courses,3
+Pakistan Studies,General_Education_Courses,3
+Islamic Studies/ Ethics,General_Education_Courses,3
+Foreign Language,University_Elective_Courses,3
+Social Service,University_Elective_Courses,3
+Management Related,University_Elective_Courses,3
+Social Science Related,University_Elective_Courses,3
+Economy Related,University_Elective_Courses,3
+Calculus & Analytical Geometry,Mathematics_and_Science_Foundation_Courses,3
+Probability & Statistics,Mathematics_and_Science_Foundation_Courses,3
+Linear Algebra,Mathematics_and_Science_Foundation_Courses,3
+Applied Physics,Mathematics_and_Science_Foundation_Courses,3
+Compiler Construction,Computer_Science_CORE_Compulsory_courses,3
+Comp. Organization & Assembly Language,Computer_Science_CORE_Compulsory_courses,3
+Comp. Organization & Assembly Language Lab,Computer_Science_CORE_Compulsory_courses,1
+Digital Logic Design,Computer_Science_CORE_Compulsory_courses,3
+Digital Logic Design Lab,Computer_Science_CORE_Compulsory_courses,1
+Design & Analysis of Algorithms,Computer_Science_CORE_Compulsory_courses,3
+Parallel & Distributed Computing,Computer_Science_CORE_Compulsory_courses,3
+Artificial Intelligence,Computer_Science_CORE_Compulsory_courses,3
+Theory of Automata,Computer_Science_CORE_Compulsory_courses,3
+Differential Equations,Computer_Science_SUPPORTING_courses,3
+Multi-variate Calculus,Computer_Science_SUPPORTING_courses,3
+Graph Theory,Computer_Science_SUPPORTING_courses,3
+Theory of Programming Languages,Computer_Science_SUPPORTING_courses,3
+Numerical Computing,Computer_Science_SUPPORTING_courses,3
+CS Elective – 1,Computer_Science_ELECTIVE_courses,3
+CS Elective – 2,Computer_Science_ELECTIVE_courses,3
+CS Elective – 3,Computer_Science_ELECTIVE_courses,3
+CS Elective – 4,Computer_Science_ELECTIVE_courses,3
+CS Elective – 5,Computer_Science_ELECTIVE_courses,3
