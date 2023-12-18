@@ -137,7 +137,6 @@ def upload():
     criteriafile.save(os.path.join(app.config["UPLOAD_FOLDER"], criteriafile.filename))
 
     creditCount, reasons, mis, allPossibleWays = runHecValidator(filenames)
-
     return jsonify(
         {
             "creditCount": creditCount,
